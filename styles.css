@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav,.middle,footer{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.middle{
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 25%;
+}
+
+footer{
+    flex-basis: 25%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    margin: 20px;
+    font-weight: 600;
+}
+
+.one, .two, .three{
+    display: flex;
+}
+
+h1{
+    font-size: 100px;
+    margin: 20px;
+}
+
+.one{
+    justify-content: space-around;
+}
+
+.two{
+    justify-content: space-between;
+}
+
+.three{
+    justify-content: space-evenly;
+}
